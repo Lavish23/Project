@@ -1,0 +1,70 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,body
+{
+  width: 100%;
+  height: 100%;
+}
+#container
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(155, 186, 214);
+
+}
+
+.calci
+{
+  /* width: 100%; */
+  background-color: #43546b;
+  padding:30px;
+  border-radius: 10px;
+}
+
+.calci form input
+{
+  outline:0;
+  border:0;
+  width:60px;
+  height:60px;
+  border-radius: 10px;
+  box-shadow: -8px -8px 15px rgba(255,255,255,0.1), 5px 5px 15px rgba(0,0,0,0.2);
+  background: transparent;
+  font-size: 22px;
+  outline-color: #fff;
+  cursor: pointer;
+  margin: 10px;
+  color: #faf6f6;
+  
+}
+
+form #top
+{
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0;
+}
+
+form #top input
+{
+  flex: 1;
+  text-align: right;
+  font-size: 40px;
+  padding: 10px;
+  color: rgb(0,0,0);
+  background-color: #fff;
+  box-shadow: none;
+} 
+
+ #equal
+{
+  width: 145px;
+
+}
