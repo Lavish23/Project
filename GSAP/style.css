@@ -1,0 +1,279 @@
+@font-face {
+  font-family: india;
+  src: url(./hello.woff2);
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body
+{
+  height: 100%;
+  width: 100%;
+
+}
+
+body
+{
+  overflow-x: hidden;
+}
+
+nav
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+
+.menu
+{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.menu h4
+{
+  cursor: pointer;
+  font-family: india;
+}
+
+.btn
+{
+  padding :8px 14px;
+  border: 1px solid ;
+  border-radius: 5px;
+}
+
+.section1
+{
+  width: 100%;
+  height: 100%;
+
+}
+nav i
+{
+  display: inline-block;
+  padding: 6px;
+  rotate: 45deg;
+}
+
+.center
+{
+  width: 100%;
+  height: 80%;
+  /* background-color: red; */
+  display: flex;
+  padding: 100px;
+
+}
+
+.center1
+{
+  height: 100%;
+  width: 45%;
+  font-family: india;
+  /* background-color: aqua; */
+  /* border: 2px solid; */
+}
+
+.center2
+{
+  height: 100%;
+  width: 55%;
+  position: relative;
+  font-family: india;
+  /* padding:0 60px; */
+  /* border: 2px solid; */
+  /* background-color: rgb(165, 82, 165); */
+
+}
+
+.center1 h1
+{
+  line-height:1;
+  font-size: 80px;
+
+  /* background-color: blue; */
+}
+
+.center1 p
+{
+  margin-top: 20px;
+  /* border: 2px solid red; */
+  font-size: 20px;
+  width: 95%;
+  margin-bottom: 16px;
+
+}
+
+.center1 button
+{
+  background-color: #111;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 10px;
+  font-weight: 500;
+  border: none;
+
+}
+
+
+.center2 img
+{
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+
+.section1bottom
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:20px 100px;
+}
+
+.section1bottom img
+{
+  width: 130px;
+  background-color: #fff;
+}
+
+
+.section2
+{
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+}
+
+.services
+{
+  /* background-color: red; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  padding: 0px 100px;
+  font-family: india;
+}
+
+.services h1
+{
+  font-size: 30px;
+  background-color: lawngreen;
+  border-radius: 4px;
+}
+.services p
+{
+  width: 70%;
+}
+
+/* .first
+{
+  border: 2px solid;
+} */
+
+.container
+{
+  height: 86%;
+  width: 100%;
+  padding: 10px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background-color: aqua; */
+  flex-wrap: wrap;
+}
+
+.elem
+{
+  flex-shrink: 0;
+  height: 300px;
+  width: 48%;
+  border: 3px solid #111;
+  border-radius: 30px;
+  /* background-color: red; */
+  box-shadow: 0 15px 0 #111;
+  padding: 40px;
+  display: flex;
+  gap: 50px;
+
+}
+
+
+.elem1
+{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 120px;
+}
+
+.elem1 h2
+{
+  font-size: 30px;
+  font-family: india;
+  font-weight: 900;
+  background-color: lawngreen;
+  /* border: 2px solid; */
+}
+
+.elem1 h4
+{
+  font-size: 20px;
+  font-family: india;
+  font-weight: 500;
+  /* padding: 20px; */
+  /* text-align: center; */
+}
+
+.elem1 h4 i
+{
+  font-size: 25px;
+  background-color: #111;
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.elem2
+{
+  width: 50%;
+}
+
+.elem2 img
+{
+  padding: 30px;
+  height: 100%;
+}
+
+.elem.dark
+{
+  background-color: #111;
+  
+  
+}
+
+.elem.dark h2
+{
+  background-color: #fff;
+}
+
+.elem.dark h4
+{
+  color: #fff;
+}
+
+.elem.dark h4 i
+{
+  color: #111;
+  background-color: #fff;
+}
